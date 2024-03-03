@@ -16,11 +16,11 @@ com esse dispositivo através de envio de comandos para receber um retorno.
 
 Tudo dentro da programção gira em torno da **entrada e saida de dados(input e output).**
 
-![input output](../static/img/input-output.png)
+![input output](/img/input-output.png)
 
 O computador só entende 0 e 1(desligado e ligado). O padrão estabelecido de envio de mensagens
 para a máquina é feita em bits, **1 Byte = 8 bits.** 10011011 em binário é igual ao número 155.
 
-![1 byte = 8 bits](../static/img/bit-byte.webp)
+![1 byte = 8 bits](/img/bit-byte.webp)
 
 
