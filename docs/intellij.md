@@ -1,4 +1,10 @@
 ---
+id: intellij
+title: Intellij
+tags:
+  - intellij
+  - shortcuts
+  - ide
 sidebar_position: 1
 ---
 
