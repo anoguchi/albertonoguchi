@@ -4,6 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'My Site',
+  staticDirectories: ['public', 'static'],
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
