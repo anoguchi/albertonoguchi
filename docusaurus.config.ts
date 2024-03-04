@@ -12,7 +12,7 @@ const config: Config = {
   url: 'https://anoguchi.github.io',
   baseUrl: '/albertonoguchi/',
   organizationName: 'anoguchi',
-  projectName: 'albertonoguchi.github.io',
+  projectName: 'albertonoguchi',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
