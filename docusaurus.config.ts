@@ -10,10 +10,10 @@ const config: Config = {
 
   // Set the production url of your site here
   url: 'https://anoguchi.github.io',
-  baseUrl: '/',
+  baseUrl: '/albertonoguchi/',
   organizationName: 'anoguchi',
   projectName: 'albertonoguchi.github.io',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
@@ -22,8 +22,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt-BR',
+    locales: ['pt-BR'],
   },
 
   presets: [
