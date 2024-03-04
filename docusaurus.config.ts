@@ -11,14 +11,11 @@ const config: Config = {
   // Set the production url of your site here
   url: 'https://anoguchi.github.io',
   baseUrl: '/albertonoguchi/',
-  deploymentBranch: 'main',
-
   organizationName: 'anoguchi',
   projectName: 'albertonoguchi',
-  trailingSlash: false,
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
