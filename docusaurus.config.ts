@@ -10,9 +10,9 @@ const config: Config = {
 
   // Set the production url of your site here
   url: 'https://anoguchi.github.io',
-  baseUrl: '/albertonoguchi/',
+  baseUrl: '/',
   organizationName: 'anoguchi',
-  projectName: 'albertonoguchi',
+  projectName: 'albertonoguchi.github.io',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
