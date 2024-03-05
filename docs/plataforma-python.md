@@ -2,9 +2,6 @@
 id: linguagens-de-programação
 title: Linguagens de Programação
 tags:
-  - notes
-  - list
-  - index
   - programming
 sidebar_position: 2
 ---
