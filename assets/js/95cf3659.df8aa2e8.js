@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[2284],{777:s=>{s.exports=JSON.parse('{"label":"shortcuts","permalink":"/albertonoguchi/docs/tags/shortcuts","allTagsPath":"/albertonoguchi/docs/tags","count":1,"items":[{"id":"intellij","title":"Intellij","description":"Shortcuts","permalink":"/albertonoguchi/docs/intellij"}],"unlisted":false}')}}]);
