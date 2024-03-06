@@ -41,22 +41,33 @@ grandes.
 
 Ao fazer compras no supermercado, geralmente criamos uma lista de compras:
 
-Mercearia:
-
+```
 - Feijão
-- Arroz
-- Café
-
-Limpeza:
-
 - Sabão
-- Shampoo
-
-Feira:
-
+- Arroz
 - Batata
 - Laranja
+- Shampoo
 - Alface
+- Café
+```
+
+Para tornar essa lista mais fácil podemos organizar utilizando as seções do
+mercado como separado.
+
+```
+Mercearia:
+    - Feijão
+    - Arroz
+    - Café
+Limpeza:
+    - Sabão
+    - Shampoo
+Feira:
+    - Batata
+    - Laranja
+    - Alface
+```
 
 A lista acima está muito mais organizada do que a primeira versão e permite que
 nossa experiência ao fazer compras seja mais produtiva, pois agora podemos
