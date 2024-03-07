@@ -4,6 +4,7 @@ title: Ambientes virtuais e pacotes
 tags:
   - ambiente virtual
   - pacotes
+  - python
 sidebar_position: 6
 ---
 

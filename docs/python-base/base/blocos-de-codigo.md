@@ -3,7 +3,8 @@ id: blocos-de-codigo
 title: Blocos de código
 tags:
   - identação
-  - blocos de código
+  - blocos de código 
+  - python
 sidebar_position: 5
 ---
 
