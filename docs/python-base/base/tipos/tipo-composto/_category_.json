@@ -1,0 +1,8 @@
+{
+  "label": "Compostos",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Com os tipos primários temos a limitação de representar apenas uma única informação em cada objeto, porém existem casos em que desejamos compor um objeto único que contém mais de uma informação e para isso usamos os tipos compostos.\n\n"
+  }
+}

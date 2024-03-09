@@ -1,6 +1,6 @@
 {
   "label": "Primário",
-  "position": 1,
+  "position": 2,
   "link": {
     "type": "generated-index",
     "description": "Os tipos primários, também chamados tipos \"escalares\" (scalar types), são\nutilizados para armazenar uma única unidade de informação, como, por exemplo,\num número ou um texto."
