@@ -21,7 +21,7 @@ exemplo.
 ```python
 >>> valor = 5 / 2 # cindo dividido por 2
 >>> print(valor)
->>> 2.5
+2.5
 ```
 
 A presença de um `.` em um número faz com que o Python entenda que queremos
