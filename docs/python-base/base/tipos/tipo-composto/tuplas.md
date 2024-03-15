@@ -13,7 +13,7 @@ sidebar_position: 1
 
 As tuplas são o tipo composto mais simples de todos e bastante comum de serem
 usadas em Python, da mesma forma que anteriormente vimos que a string "ABC" é
-uma sequência de carecteres, com as tuplas conseguimos fazer uma sequência de
+uma sequência de caracteres, com as tuplas conseguimos fazer uma sequência de
 valores que podem ser de qualquer tipo.
 
 Exemplo de um sistema que armazena coordenadas sem o uso de tuplas:

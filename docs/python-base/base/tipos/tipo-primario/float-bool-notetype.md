@@ -49,12 +49,12 @@ pontos = 355.8
 ### Booleanos
 
 O tipo booleano é representado pela classe `bool` e ele pode armazenar apenas 2
-estados `true` e `false`, em teoria poderiamos aplicar aqui a lógica binária
+estados `true` e `false`, em teoria poderíamos aplicar aqui a lógica binária
 e no nosso programa dizer que `0` é falso enquanto `1` é verdadeiro, e de fato
 é isso que Python faz por debaixo dos panos, porém para ficar com uma sintaxe
 mais bonita termos o tipo `bool` e as suas variações `True` e `False`.
 
-Quando utilizamos esse tipo? Sempre que precisamos de flags, variavéis que
+Quando utilizamos esse tipo? Sempre que precisamos de flags, variáveis que
 podem estar em um desses dois estados, veja alguns exemplos:
 
 ```
@@ -122,7 +122,7 @@ valor para armazenar nela, nesse caso usamos o objeto `None`.
 NoneType
 ```
 
-Este é um tipo especial que serve para quando não possuimos um valor, mas
+Este é um tipo especial que serve para quando não possuímos um valor, mas
 precisamos da variável definida, pois em algum momento no decorrer do
 programa iremos refazer a atribuição daquela variável.
 

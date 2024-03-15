@@ -47,32 +47,32 @@ __license__ = "Unlicense"
 ```
 
 E além do comentário de documentação, chamado DocString é também comum a
-inclusão de variavéis de metadados que inician e terminam com 2 underlines __ a
-palavra que usamos para designar essas variavéis é Dunder portanto, Dunder
+inclusão de variáveis de metadados que iniciam e terminam com 2 underlines __ a
+palavra que usamos para designar essas variáveis é Dunder portanto, Dunder
 version se refere a __version__.
 
-## Variavéis de Ambiente
+## Variáveis de Ambiente
 
 Ambiente é o termo que usamos para referir ao local onde o programa é
 executado, o ambiente em termos gerais é formado por um shell que em termos bem
 simplificados pode ser entendido como um local isolado onde o seu programa
 executa.
 
-Neste ambiente existem variavéis que servem para configurar o comportamento do
+Neste ambiente existem variáveis que servem para configurar o comportamento do
 próprio ambiente, do sistema e dos programas que rodam.
 
 No linux ao digitar env no terminal você verá uma lista de todas as variáveis
 do ambiente, ali por exemplo está o nome do usuário em USER e a linguagem em
 que o sistema operacional está configurado LANG.
 
-Podemos dentro do Python acessar essas variáveis de ambiente atráves do módulo
+Podemos dentro do Python acessar essas variáveis de ambiente através do módulo
 os.
 
 ```python
 import os
 
 
-os.environ  # um dicionário Python contendo as variavéis e seus valores
+os.environ  # um dicionário Python contendo as variáveis e seus valores
 
 
 os.getenv("LANG")  # função usada para buscar o valor de uma variável especifica.
@@ -80,7 +80,7 @@ os.getenv("LANG")  # função usada para buscar o valor de uma variável especif
 
 ## Obtendo uma parte de um texto (substring)
 
-Em nosso primeiro programa irá ler a variável de ambiente LANG e apartir dela
+Em nosso primeiro programa irá ler a variável de ambiente LANG e a partir dela
 decidir qual mensagem de Hello World imprimir na tela, portanto se for pt_BR
 imprimimos Olá, Mundo! se for it_IT será Ciao, Mondo! e assim por diante.
 

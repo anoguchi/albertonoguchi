@@ -50,7 +50,7 @@ fichário de documentos:
 
 E dentro deste fichário/arquivo em cada pasta ela possui:
 
-- Uma posição (primeira, segunda, teceira)
+- Uma posição (primeira, segunda, terceira)
 - Uma etiqueta (identificador, variável)
 - Um envelope contendo:
     - Instruções de como usar aquela informação

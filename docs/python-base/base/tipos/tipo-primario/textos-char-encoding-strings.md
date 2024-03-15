@@ -39,8 +39,8 @@ Existem várias tabelas de caracteres usadas na computação, as mais importante
 são a `ascii` e `utf8`.
 
 A tabela `ASCII` possui 128 posições, ou seja, vai do 0 ao 127 e em cada
-posição armazena apenas um caracter. Ela tem os carecteres básicos da lingua
-inglesa e como pode perceber ela não considera acentuação ou carecteres
+posição armazena apenas um caractere. Ela tem os caracteres básicos da lingua
+inglesa e como pode perceber ela não considera acentuação ou caracteres
 especiais de outros idiomas como Russo ou Mandarim.
 
 Quando a computação globalizou foi preciso mudar de tabela e adotar uma maior
@@ -51,11 +51,11 @@ A tabela `unicode` de `8 bits` - utf8 atualmente tem 120 mil caracteres.
 
 [Unicode Table](https://unicode-table.com/en/)
 
-Nesta tabela além da tabela ASCII padrão, apartir da posição `128` temos
+Nesta tabela além da tabela ASCII padrão, a partir da posição `128` temos
 acentuação e subtabelas para símbolos e emojis.
 
-Na tabela `ASCII` cada caracter ocupava menos de 1 byte (7 bits) e por isso que
-`A` é `65` que na tabela é `1000001` (7 digitos).
+Na tabela `ASCII` cada caractere ocupava menos de 1 byte (7 bits) e por isso que
+`A` é `65` que na tabela é `1000001` (7 dígitos).
 
 Já na tabela unicode cada caractere pode ser formado por mais de um byte, por
 exemplo, uma letra com acento Ã ocupa 2 bytes `11000011 10000011` na tabela.
@@ -72,7 +72,7 @@ a partir de um texto `ascii` para `utf-8`.
 
 fruit = "🍉"
 
-# para transmitir este texto ou gravar em um arquvivo
+# para transmitir este texto ou gravar em um arquivo
 # ou banco de dados pode ser necessário encodificar ele.
 >>> fruit.encode("utf-8")
 b'\xf0\x9f\x8d\x89'
@@ -98,7 +98,7 @@ hexadecimal. A título de curiosidade
     8d = 10001101
     89 = 10001001
 
-Que são os 4 bytes que formam o carecte 🍉 e você pode verificar isso no Python
+Que são os 4 bytes que formam o caractere 🍉 e você pode verificar isso no Python
 com cada um dos valores da lista:
 
 ```python

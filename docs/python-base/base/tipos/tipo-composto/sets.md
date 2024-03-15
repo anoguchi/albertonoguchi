@@ -80,7 +80,7 @@ elementos,
 e quiser, por exemplo, buscar pelo usuario `"alfredo"` o python vai ter que
 percorrer toda a lista e comparar elemento por elemento até encontrar o
 alfredo, e se o alfredo estiver no final? Vai demorar muito, essa é uma
-operação com uma complexidade algoritmica `O(n)` pois Python vai ter que
+operação com uma complexidade algorítmica `O(n)` pois Python vai ter que
 efetuar uma comparação para cada item `n` da lista.
 
 Os sets implementam uma hash table! 🎉
@@ -94,7 +94,7 @@ dizendo
 ```
 
 Portanto, quando precisarmos buscar o `alfredo` o python olha primeiro essa
-tabela e já vai diretamente na informação que está em `345` como se fizessemos
+tabela e já vai diretamente na informação que está em `345` como se fizéssemos
 `users[345]` em uma lista e a complexidade desta operação passa a ser `O(1)`
 pois agora só tem uma comparação a ser feita.
 

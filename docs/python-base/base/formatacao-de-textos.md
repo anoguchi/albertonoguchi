@@ -44,7 +44,7 @@ pontos."
 Olá Bruno, você é o participante número 4 e pode ganhar 42.50 pontos.
 ```
 
-E também é possivel utilizar parâmetros nomeados.
+E também é possível utilizar parâmetros nomeados.
 
 ```python
 >>> mensagem = "Olá %(nome)s, você é o participante número %(num)d e pode 
@@ -52,7 +52,7 @@ ganhar %(pon).2f pontos."
 >>> print(mensagem % {"nome": "Bruno", "num": 4, "pon": 42.5})
 Olá Bruno, você é o participante número 4 e pode ganhar 42.50 pontos.
 ```
-Apesar do uso de `%` ter caido em desuso no Python3, ainda existem bibliotecas
+Apesar do uso de `%` ter caído em desuso no Python3, ainda existem bibliotecas
 como a `logging` que ainda utiliza este formato.
 
 ### format
@@ -67,7 +67,7 @@ pontos."
 Olá Bruno, você é o participante número 4 e pode ganhar 42.5 pontos.
 ```
 Repare que ao invés de `%` agora usamos `{}` para marcar um placeholder e ao
-inves de `%` usamos a chamada do método `.format` do próprio tipo `str` para 
+invés de `%` usamos a chamada do método `.format` do próprio tipo `str` para 
 passar os valores em sequência.
 
 E também podemos especificar tipos e a precisão numérica usando : e os mesmos
@@ -106,7 +106,7 @@ Exemplos:
 >>> "{:>11}".format("Bruno")
 '      Bruno'
 
-# Agora preenchendo os espaços com outro carectere
+# Agora preenchendo os espaços com outro caractere
 
 >>> "{:*^11}".format("Bruno")
 '***Bruno***'
@@ -145,7 +145,7 @@ explicitamente `.format()` usamos `f"texto"`.
 '***45.30***'
 ```
 
-Uma útilidade interessante das f-strings é usar para fazer debugging.
+Uma utilidade interessante das f-strings é usar para fazer debugging.
 
 ```python
 >>> nome = "Bruno"
