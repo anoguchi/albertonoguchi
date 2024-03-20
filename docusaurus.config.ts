@@ -25,6 +25,22 @@ const config: Config = {
     defaultLocale: "pt-BR",
     locales: ["pt-BR"],
   },
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      }),
+    ],
+  ],
 
   presets: [
     [
@@ -52,15 +68,11 @@ const config: Config = {
   ],
 
   themeConfig: {
-    algolia: {
-      appId: '97L8TNWTGI',
-      apiKey: 'b9d57543f9cfcd2b9652ef7bc175764f',
-      indexName: 'albertonoguchi',
-      contextualSearch: true,
-      searchParameters: {},
-      searchPagePath: 'search',
-      debug: false,
-    },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
