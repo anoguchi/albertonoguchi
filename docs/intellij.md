@@ -18,7 +18,7 @@ sidebar_position: 1
 | `F2`                                      | Navigate between code issues                                                        |
 | `Ctrl` `E`                                | View recent files                                                                   |
 | `Ctrl` `Shift` `Enter`                    | Complete Current Statement                                                          |
-| `Ctrl` `Shift` `L`                        | Reformat Code                                                                       |
+| `Ctrl` `Alt` `L`                          | Reformat Code                                                                       |
 | `Ctrl` `Alt` `Shift` `T`                  | Invoke refactoring                                                                  |
 | `Ctrl` `W`                                | Extend or shrink selection                                                          |
 | `Ctrl` `/`                                | Add/remove line or block comment                                                    |

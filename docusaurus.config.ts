@@ -52,6 +52,15 @@ const config: Config = {
   ],
 
   themeConfig: {
+    algolia: {
+      appId: '97L8TNWTGI',
+      apiKey: 'b9d57543f9cfcd2b9652ef7bc175764f',
+      indexName: 'albertonoguchi',
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
+      debug: false,
+    },
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
@@ -60,6 +69,7 @@ const config: Config = {
         alt: "My Site Logo",
         src: "img/logo.svg",
       },
+
       items: [
         {
           type: "docSidebar",
